@@ -1,15 +1,25 @@
 :root {
+    /* PALETA ANTERIOR (comentada para referencia)
     --color-alerta-exito-fondo: #DCFCE7;
     --color-alerta-exito-borde: #86EFAC;
     --color-alerta-exito-texto: #1C8B45;
-
     --color-alerta-error-fondo: #FEE2E2;
     --color-alerta-error-borde: #FCA5A5;
     --color-alerta-error-texto: #EF4444;
-
     --color-alerta-info-fondo: #DBEAFE;
     --color-alerta-info-borde: #93C5FD;
     --color-alerta-info-texto: #3070D7;
+    */
+    /* PALETA ACTUAL: SOLO AZUL, GRIS, BLANCO Y NEGRO */
+    --color-alerta-exito-fondo: #f3f4f6;
+    --color-alerta-exito-borde: #2563eb;
+    --color-alerta-exito-texto: #2563eb;
+    --color-alerta-error-fondo: #ffffff;
+    --color-alerta-error-borde: #000000;
+    --color-alerta-error-texto: #000000;
+    --color-alerta-info-fondo: #f3f4f6;
+    --color-alerta-info-borde: #6b7280;
+    --color-alerta-info-texto: #6b7280;
 }
 
 .alerta {

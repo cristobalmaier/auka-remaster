@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-05-2025 a las 00:59:14
+-- Tiempo de generación: 01-07-2025 a las 23:50:59
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -75,6 +75,13 @@ CREATE TABLE `llamados` (
   `finalizado` tinyint(1) NOT NULL DEFAULT 0,
   `cancelado` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `llamados`
+--
+
+INSERT INTO `llamados` (`id_llamado`, `id_preceptor`, `id_emisor`, `id_curso`, `numero_nivel`, `mensaje`, `fecha_envio`, `finalizado`, `cancelado`) VALUES
+(213, NULL, 14, 19, 2, 'asdsad', '2025-07-01 21:33:33', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -179,7 +186,9 @@ INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `contrasena
 (8, 'Alejandro Ariel', 'Manrique', 'alejandro@gmail.com', '$2b$05$j007.4grrUBOvurQc4tpBu86J6XjG09flrwfTA1xlwNUjewZx/Fjq', 'preceptor', 1),
 (9, 'Carlos Alberto', 'Robello', 'robello@gmail.com', '$2b$05$FHPuGgstOyFL6LLtP/829e./zEEx4agJNoRsh1YMIj6zxDh3GFaT.', 'profesor', 1),
 (14, 'cristobal', 'maier', 'cristobalmaier1@gmail.com', '$2b$05$ggMTF3jCdBFBtPXUvhEvL.8bqAdA5gQtseg0RC/PDHxqNRmRt9hou', 'profesor', 1),
-(15, 'alejandra', 'fernandez', 'alejandrafernandez@gmail.com', '$2b$05$sBA1337.YQVeSDOO87RKSea9b4Hrw3yaTnC17JS6HMP.yokGrIw8y', 'preceptor', 1);
+(15, 'alejandra', 'fernandez', 'alejandrafernandez@gmail.com', '$2b$05$sBA1337.YQVeSDOO87RKSea9b4Hrw3yaTnC17JS6HMP.yokGrIw8y', 'preceptor', 1),
+(16, 'tito', 'calderon', 'titocalderon@gmail.com', '$2b$05$0VfTUvCLwTNUyQ28zIcQWO6gWUHvq4PFfEfSVQ2qio6sve15qGBe6', 'preceptor', 1),
+(17, 'mario', 'bene', 'mariobene@gmail.com', '$2b$05$RDidrQL/BgyeZ2bUcVrTzOXhwSuIbBgo6YaeBliY.nkcbHn6XC8vi', 'directivo', 1);
 
 --
 -- Índices para tablas volcadas
@@ -250,7 +259,7 @@ ALTER TABLE `cursos`
 -- AUTO_INCREMENT de la tabla `llamados`
 --
 ALTER TABLE `llamados`
-  MODIFY `id_llamado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=213;
+  MODIFY `id_llamado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=214;
 
 --
 -- AUTO_INCREMENT de la tabla `respuestas_llamados`
@@ -274,7 +283,7 @@ ALTER TABLE `turnos_asignaciones`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- Restricciones para tablas volcadas

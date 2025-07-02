@@ -2,7 +2,10 @@
 
 body {
   font-family: sans-serif;
-  /* Assuming a generic sans-serif font */
+  /* PALETA ANTERIOR (comentada para referencia)
+  background: #f9fafb;
+  */
+  background: #ffffff;
   margin: 0;
 }
 
@@ -22,7 +25,6 @@ body {
 }
 
 .card-wide {
-
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 2.5rem;
@@ -37,7 +39,7 @@ body {
   font-size: 24px;
   margin-bottom: 0.5rem;
   /* Adjusted margin-bottom */
-  color: #111827;
+  color: #000000;
   /* Dark text color */
   display: flex;
   /* To align icon and text */
@@ -69,10 +71,10 @@ body {
   flex: 1 1 auto;
   min-width: 200px;
   background-color: #f3f4f6;
-  color: #111827;
+  color: #000000;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #e5e7eb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +83,6 @@ body {
   transition: background-color 0.2s ease;
   cursor: pointer;
 }
-
 
 .botones-exportar:hover {
   background-color: #e5e7eb;
@@ -375,8 +376,6 @@ body {
   font-weight: 600;
   color: #111827;
 }
-
-
 
 /* ////////////////////// Directivos LLAMADOS ////////////////////// */
 /* Layout principal */
@@ -1020,6 +1019,5 @@ a {
   color: #374151;
   font-size: 15px;
 }
-
 
 /* ////////////////////// Directivos ADMINISTRACION ////////////////////// */

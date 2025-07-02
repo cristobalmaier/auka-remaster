@@ -1,6 +1,7 @@
 @import url('global.css');
 
 :root {
+    /* PALETA ANTERIOR (comentada para referencia)
     --color-texto: #000000;
     --color-texto-secundario: #8A8FB2;
     --color-link: #6e7ff1;
@@ -11,6 +12,18 @@
     --color-borde: #E4E4E7;
     --color-borde-hover: #8A8FB2;
     --color-error: #FF0000;
+    */
+    /* PALETA ACTUAL: SOLO AZUL, GRIS, BLANCO Y NEGRO */
+    --color-texto: #000000;
+    --color-texto-secundario: #6b7280;
+    --color-link: #2563eb;
+    --color-fondo: #ffffff;
+    --color-fondo-secundario: #f3f4f6;
+    --color-boton: #2563eb;
+    --color-boton-hover: #1d4ed8;
+    --color-borde: #e5e7eb;
+    --color-borde-hover: #6b7280;
+    --color-error: #000000;
 }
 
 .login-contenedor {
