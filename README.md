@@ -64,5 +64,4 @@ Inicia el servidor
 - [@Exaedro](https://www.github.com/Exaedro)
 - [@cristobalmaier](https://www.github.com/cristobalmaier)
 - [@Tzaw14](https://www.github.com/Tzaw14)
-- [@Lesshugaa](https://www.github.com/Lesshugaa)
 - [@Agusicolman06](https://www.github.com/Agusicolman06)
